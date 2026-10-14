@@ -23,6 +23,7 @@ function Navbar() {
         <Link to="/products" className="text-gray-600 hover:text-black">Products</Link>
         <Link to="/wishlist" className="text-gray-600 hover:text-black">Wishlist</Link>
         <Link to="/cart" className="text-gray-600 hover:text-black">Cart ({cartCount})</Link>
+        <Link to="/orders" className="text-gray-600 hover:text-black">Orders</Link>
       </div>
       <button
         onClick={handleLogout}

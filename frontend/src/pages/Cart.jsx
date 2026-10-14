@@ -52,9 +52,12 @@ function Cart() {
                 <span>Subtotal</span>
                 <span>₹{subtotal.toLocaleString("en-IN")}</span>
               </div>
-              <button className="w-full bg-black text-white py-2 rounded mt-3">
+              <Link
+                to="/checkout"
+                className="block text-center w-full bg-black text-white py-2 rounded mt-3 hover:bg-gray-800"
+              >
                 Proceed to Checkout
-              </button>
+              </Link>
             </div>
           </div>
         )}
